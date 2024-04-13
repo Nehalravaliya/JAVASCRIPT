@@ -1,0 +1,28 @@
+<html>
+    <head>
+      <script src="three.js"></script>
+    
+    </head>
+    <body>
+        <center>
+             <form>
+        <label for="num1">Enter first number</label><br>
+        <input type="number" id="num1"  value="" required><br><br>
+       
+        <select id="operation">
+            <option id="addition" value="addition">Addtion[+]</option>
+            <option id="subtraction" value="subtraction">Subtraction [-]</option>
+            <option id="multiplication" value="multiplication">Multiplication [*]</option>
+            <option id="division" value="division">Division [/]</option>
+            <option id="module" value="module">Module [%]</option>
+        </select><br><br>
+        <label for="num2">Enter Second number</label><br>
+        <input type="number" id="num2" value="" required><br><br>
+      
+        <button type="button" onclick="calculate(event)">Calculate</button>
+        <p id="result"></p>
+        <button type="reset">Reset</button>
+        </form> 
+   </center>
+    </body>
+</html>
